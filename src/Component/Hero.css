@@ -1,0 +1,43 @@
+.hero-section-container {
+  background-image:
+    linear-gradient(rgba(107, 104, 104, 0.623), rgba(22, 21, 21, 0)),
+    url("https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2022/01/header-hero.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 15px;
+  gap: 1px;
+}
+.hero-section-container h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.hero-section-container h3 {
+  color: white;
+  font-size: 130px;
+  font-weight: lighter;
+}
+.hero-section-container p {
+  color: white;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.hero-section-container button {
+  width: 157px;
+  height: 48px;
+  background-color: rgb(255, 255, 57);
+  border-radius: 5px;
+  color: rgb(109, 106, 106);
+  border: 1px yellow solid;
+  margin-top: 30px;
+}
+.hero-section-container button:hover {
+  background-color: rgba(206, 206, 9, 0.932);
+  color: rgb(109, 106, 106);
+}
