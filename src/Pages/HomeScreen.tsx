@@ -1,5 +1,10 @@
+import Nav from "../Component/Nav";
 const HomeScreen = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Nav />
+    </div>
+  );
 };
 
 export default HomeScreen;
